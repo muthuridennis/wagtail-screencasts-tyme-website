@@ -17,3 +17,6 @@ git fetch --all
 git branch branch-name
 git pull origin branch-name
 ``` 
+
+# Disclaimer
+The sample content used in this demo comes from the real [time](http://time.com) website and none of it is mine. I replicate their styling to explain real world applicability of Wagtail concepts. My imitaion is called 'TYME'.
