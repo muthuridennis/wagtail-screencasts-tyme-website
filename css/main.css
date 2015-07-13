@@ -29,6 +29,39 @@ main{
 a:hover{
 	text-decoration: none;
 }
+.navbar {
+    min-height: 70px;
+}
+.navbar-inverse {
+    background: #E90606 none repeat scroll 0% 0%;
+    color: #FFF;
+    text-shadow: none;
+    border: none;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-family: "Times New Roman";
+    font-size: 54px;
+    line-height: 40px;
+}
+.top-stories article{
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 15px;
+}
+.top-stories article:last-child{
+	border-bottom: none;
+}
+.brief-heading {
+  color: #E90606;
+	font-size: 1.8em;
+	font-weight: 800;
+	text-align: center;
+	text-transform: uppercase;
+}
+.brief-heading span {
+	color: #181818;
+	font-weight: 100;
+}
 .home-brief-title-and-excerpt h2 {
   font-size: 34pt;
   line-height: 34pt;
@@ -38,10 +71,6 @@ a:hover{
 .home-brief-title-and-excerpt h2 a{
     color: #181818;
 }
-.list-article figure {
-	float: left;
-	position: relative;
-}
 .home-excerpt{
 	font-size: 12pt;
 	line-height: 1.2;
@@ -49,18 +78,21 @@ a:hover{
 	font-weight: 100;
 	margin: 0px;
 }
-.top-stories article{
-	border-bottom: 1px solid #CCC;
-	padding-bottom: 15px;
-}
 .list-article{
 	margin-top: 20px;
 	padding-bottom: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.list-article figure{
+	float: left;
+	position: relative;
+	padding-left: 0px;
 }
 .list-article .home-brief-title-and-excerpt{
 	padding-left: 0;
 }
-.list-article  .home-brief-title-and-excerpt .home-excerpt {
+.list-article .home-brief-title-and-excerpt .home-excerpt {
     color: #282828;
     font-size: 10pt;
     font-weight: 100;
@@ -71,34 +103,4 @@ a:hover{
     font-size: 16pt;
     line-height: 17pt;
     margin: 0px 0px 5px;
-}
-.brief-heading {
-  color: #E90606;
-	font-size: 1.8em;
-	font-weight: 800;
-	text-align: center;
-	text-transform: uppercase;
-}
-
-.brief-heading span {
-	color: #181818;
-	font-weight: 100;
-}
-
-.navbar {
-    min-height: 70px;
-}
-
-.navbar-inverse {
-    background: #E90606 none repeat scroll 0% 0%;
-    color: #FFF;
-    text-shadow: none;
-    border: none;
-}
-
-.navbar-inverse .navbar-brand {
-    color: white;
-    font-family: "Times New Roman";
-    font-size: 54px;
-    line-height: 40px;
 }
